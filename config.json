@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ns01",
+    "cpus": 1,
+    "gui": false,
+    "box": "centos/7",
+    "private_network":
+    [
+      { "ip": "192.168.56.10", "adapter": 2, "netmask": "255.255.255.0" }
+    ],
+    "memory": "640",
+    "no_share": true
+  },
+  {
+    "name": "ns02",
+    "cpus": 1,
+    "gui": false,
+    "box": "centos/7",
+    "private_network":
+    [
+      { "ip": "192.168.56.11", "adapter": 2, "netmask": "255.255.255.0" }
+    ],
+    "memory": "640",
+    "no_share": true
+  },
+  {
+    "name": "client",
+    "cpus": 1,
+    "gui": false,
+    "box": "centos/7",
+    "private_network":
+    [
+      { "ip": "192.168.56.15", "adapter": 2, "netmask": "255.255.255.0" }
+    ],
+    "memory": "640",
+    "no_share": true
+  },
+  {
+    "name": "client2",
+    "cpus": 1,
+    "gui": false,
+    "box": "centos/7",
+    "private_network":
+    [
+      { "ip": "192.168.56.16", "adapter": 2, "netmask": "255.255.255.0" }
+    ],
+    "memory": "640",
+    "no_share": true
+  }
+]
